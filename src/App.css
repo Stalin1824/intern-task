@@ -39,11 +39,10 @@ header{
    margin: 20px 0px;
    
 }
-.price > input{
-  width: 30px;
-  height: 30px;
-  
-}
+/* .inputbox{
+    width: 30px;
+    height: 30px;
+} */
 
 .container-1{
     width: 80%;
@@ -99,11 +98,9 @@ header{
      
       }
     
-    .firstrow{
-      gap:0px;
-    }
+    
     .hair img{
-        width: 196%;
+        width: 193%;
         position: relative;
         right: 50px;
         margin: 0px auto;
@@ -141,6 +138,8 @@ header{
       margin-top:-20px;
       font-size: 20px;
    }
-}
-
-
+   .inputbox{
+      width: 15px;
+      height: 15px;
+   }  
+  }

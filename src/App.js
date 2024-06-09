@@ -69,25 +69,21 @@ const App = () => {
             <div className='firstrow'>
               <div className='hair'>
                <h1 className='head' style={{color:'gray'}}>High DefintionBridal Makeup</h1>
-                <img src={hd} htmlFor='1' width='100%'></img>  <br></br>
-                <div className='price'>
-                  <input className='input1' type='checkbox' value={1000} onChange={handelecheck1} id='1'></input>
+                <img src={hd} htmlFor='1' width='100%' ></img>  <br></br>
+                  <input className='inputbox' type='checkbox' value={1000} onChange={handelecheck1} id='1'></input>
                   <div>
                     <h4 className='h1'>High  DefintionBridal Makeup</h4>
                     <h2 className='h2'>Price-Rs.1000</h2>
                   </div>
-                </div>
               </div>
               <div className='hair'>
                 <h1 className='head' style={{color:'gray'}}>AirBrush Bridal Makeup</h1>
                 <img src={air} htmlFor='2' width='100%' className='i1'></img><br></br>
-                <div className='price'>
-                  <input type='checkbox' value={50000} className='input1' onChange={handelecheck2} id='2'></input>
+                  <input type='checkbox' value={50000} className='inputbox' onChange={handelecheck2} id='2'></input>
                   <div>
                     <h4 className='h1'>AirBrush Bridal Makeup</h4>
                     <h2 className='h2'>Price-Rs.50000</h2>
                   </div>
-                </div>
               </div>
             </div>
 
@@ -102,26 +98,22 @@ const App = () => {
               <div className='hair'>
               <h1 className='head' style={{color:'gray'}}>Hairstyle</h1>
 
-                <img src={hairing} htmlFor='1' width='100%'></img>  <br></br>
-                <div className='price'>
-           <input type='checkbox' value={5000}  onChange={handelecheck3} id='3'></input>
+                <img src={hairing} htmlFor='1' width='100%'></img> 
+                    <input type='checkbox' value={5000} className='inputbox'  onChange={handelecheck3} id='3'></input>
                   <div>
-                  <h4 className='h1'>Hair Makeup</h4> 
+                  <h4 className='h1'>Hair Bridal Makeup</h4> 
                   <h2 className='h2'>Price-Rs.5000</h2>
-                  </div>
                 </div>
               </div>
               <div className='hair'>
               <h1 className='head' style={{color:'gray'}}>Sareedrapping</h1>
                 
-                <img src={saree} htmlFor='2' width='100%' className='i1'></img><br></br>
-                <div className='price'>
-                <input type='checkbox' value={500}  onChange={handelecheck4} id='4'></input>
+                <img src={saree} htmlFor='2' width='100%' ></img><br></br>
+                <input type='checkbox' value={500} className='inputbox'  onChange={handelecheck4} id='4'></input>
                   <div>
                   <h4 className='h1'>Sareedrapping Makeup</h4> 
                   <h2 className='h2'>Price-Rs.500</h2>
                   </div>
-                </div>
               </div>
             </div>
 
